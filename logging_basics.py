@@ -1,5 +1,5 @@
 import logging
-logger = logging.getLogger('lists-cleanup')
+logger = logging.getLogger('some-application')
 logger.setLevel(logging.INFO)
 sh = logging.StreamHandler()
 sh.setFormatter(logging.Formatter(
