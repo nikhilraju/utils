@@ -2,4 +2,4 @@
 df.drop_duplicates(subset=['column_foo'], inplace=True)
 
 # Drop rows based on some condition
-df.drop(df['column_foo'].isnull().index, inplace=True)
+df.drop(df[df['column_foo'].isnull() ==True].index, inplace=True)
